@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Explore — BizMatch</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <nav class="topbar">
+      <div class="left">
+        <div class="logo small">PB</div>
+        <div class="app-title">BizMatch</div>
+      </div>
+      <div class="right">
+        <div id="timerWidget" class="timer small">⏱ 0m 0s</div>
+        <img id="profileThumb" class="thumb hidden" alt="avatar" />
+      </div>
+    </nav>
+
+    <main id="feed" class="feed"></main>
+
+    <div id="endMessage" class="end-msg hidden">You've reached the end — more ideas coming soon ✨</div>
+
+    <nav class="bottombar">
+      <a href="home.html" class="bb-item active">Explore</a>
+      <a href="profile.html" class="bb-item">Saved</a>
+    </nav>
+  </div>
+
+  <template id="cardTpl">
+    <article class="card idea-card">
+      <div class="card-main">
+        <div class="card-left">
+          <h3 class="card-title"></h3>
+          <p class="card-summary"></p>
+        </div>
+        <div class="card-right">
+          <div class="income"></div>
+          <div class="difficulty"></div>
+        </div>
+      </div>
+
+      <div class="card-actions">
+        <button class="btn btn-sm btn-outline view-btn">Full</button>
+        <button class="btn btn-sm save-btn">Save</button>
+      </div>
+    </article>
+  </template>
+
+  <!-- Modal for full breakdown -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="closeModal" class="modal-close">✕</button>
+      <h2 id="modalTitle"></h2>
+      <p id="modalSummary" class="muted"></p>
+      <div id="modalDetails"></div>
+      <div class="modal-actions">
+        <button id="modalSave" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/firebase.js"></script>
+  <script type="module" src="js/timer.js"></script>
+  <script type="module" src="js/data.js"></script>
+  <script type="module" src="js/home.js"></script>
+</body>
+</html>
