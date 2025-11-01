@@ -266,3 +266,39 @@ function attachModalListeners() {
     console.error("home.js init error:", e);
   }
 })();
+
+
+const container = document.querySelector('.business-container');
+
+onAuthStateChanged(auth, async (user) => {
+  if (!user) return window.location.href = "index.html";
+
+  const userRef = doc(db, "users", user.uid);
+  const userSnap = await getDoc(userRef);
+  const userInterests = userSnap.data().interests || [];
+
+  const querySnapshot = await getDocs(collection(db, "businesses"));
+  const allBusinesses = [];
+  querySnapshot.forEach(doc => allBusinesses.push({ id: doc.id, ...doc.data() }));
+
+  const matched = allBusinesses.filter(b => userInterests.some(i => b.category.includes(i)));
+  const others = allBusinesses.filter(b => !userInterests.some(i => b.category.includes(i)));
+
+  container.innerHTML = `
+    <h3>Matched for You</h3>
+    ${matched.map(b => businessCard(b)).join('')}
+    <h3>Other Opportunities</h3>
+    ${others.map(b => businessCard(b)).join('')}
+  `;
+});
+
+function businessCard(b) {
+  return `
+    <div class="business-card">
+      <h4>${b.title}</h4>
+      <p>${b.description}</p>
+      <button onclick="window.location='business.html?id=${b.id}'">Full</button>
+    </div>
+  `;
+}
+
