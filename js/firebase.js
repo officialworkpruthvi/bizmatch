@@ -1,13 +1,11 @@
-// js/firebase.js
-// IMPORTANT: Replace the firebaseConfig object values with your project's config
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-app.js";
 import {
   getAuth,
   GoogleAuthProvider,
   signInWithPopup,
   onAuthStateChanged,
   signOut
-} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/12.5.0/firebase-auth.js";
 
 import {
   getFirestore,
@@ -20,15 +18,15 @@ import {
   where,
   updateDoc,
   deleteDoc
-} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+} from "https://www.gstatic.com/firebasejs/12.5.0/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_DOMAIN.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_BUCKET.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyD-6FpBSElcSk-W-90VhDPOg5xTfFSu0Mw",
+  authDomain: "bizmatch-5452a.firebaseapp.com",
+  projectId: "bizmatch-5452a",
+  storageBucket: "bizmatch-5452a.firebasestorage.app",
+  messagingSenderId: "456732334961",
+  appId: "1:456732334961:web:83cff657535df602d9b4d0"
 };
 
 const app = initializeApp(firebaseConfig);
