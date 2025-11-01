@@ -1,0 +1,12 @@
+<!-- business.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Business Deep Dive</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="business-details"></div>
+  <script type="module" src="js/business.js"></script>
+</body>
+</html>
