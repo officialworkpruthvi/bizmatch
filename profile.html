@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Saved Ideas — BizMatch</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <nav class="topbar">
+      <div class="left">
+        <div class="logo small">PB</div>
+        <div class="app-title">BizMatch</div>
+      </div>
+      <div class="right">
+        <div id="timerWidgetProfile" class="timer small">⏱ 0m</div>
+        <img id="profileThumb2" class="thumb hidden" alt="avatar" />
+      </div>
+    </nav>
+
+    <main id="savedList" class="container p-4">
+      <h1>Saved Ideas</h1>
+      <div id="savedContent" class="stack"></div>
+      <div id="noSaved" class="muted">No saved ideas yet — go to Explore and save your favorites ✨</div>
+    </main>
+
+    <nav class="bottombar">
+      <a href="home.html" class="bb-item">Explore</a>
+      <a href="profile.html" class="bb-item active">Saved</a>
+    </nav>
+  </div>
+
+  <script type="module" src="js/firebase.js"></script>
+  <script type="module" src="js/timer.js"></script>
+  <script type="module" src="js/profile.js"></script>
+</body>
+</html>
