@@ -842,5 +842,23 @@ export const BUSINESSES = [
     kpis: ["Client retention","Outcome metrics","Referral rate"],
     legal: "Clear scope: coaching vs therapy; informed consent and emergency protocols.",
     pitfalls: "Practicing beyond scope, lack of supervision, poor documentation."
+  }, {
+    id: "youtube-shorts-channel",
+    title: "YouTube Shorts Compilation Channel",
+    type: "service",
+    skills: ["video-editing","social-media","analytics"],
+    interests: ["entertainment","pop-culture"],
+    timePerDay: "1-3 hrs",
+    income_1_3_months: "₹2k – ₹25k",
+    difficulty: "Low",
+    trend: "Very High",
+    summary: "Capitalize on short-form trends by curating viral clips and repurposing them with captions and trending sounds.",
+    how: [
+      "Identify trending niches (memes, motivation, news)",
+      "Download clips under fair-use or royalty-free",
+      "Add text overlays & trending music",
+      "Post 3-5 Shorts daily and test hashtags",
+      "Monetize with channel memberships or ads"
+    ]
   }
 ];
