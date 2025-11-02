@@ -860,5 +860,31 @@ export const BUSINESSES = [
       "Post 3-5 Shorts daily and test hashtags",
       "Monetize with channel memberships or ads"
     ]
+  },
+   {
+    id: "3d-printing-hardware",
+    title: "3D Printing (Custom Parts & Prototypes)",
+    type: "service",
+    skills: ["3d-modelling","printer-ops","finishing"],
+    interests: ["hardware","product-development","prototyping"],
+    timePerDay: "1-5 hrs",
+    income_1_3_months: "₹5k - ₹1,50,000",
+    difficulty: "Medium",
+    trend: "Niche",
+    summary: "Offer prototyping and small-batch manufacturing using 3D printers for local designers and makers.",
+    how: [
+      "Invest in reliable printers & materials",
+      "Offer prototyping & finishing services",
+      "Create catalog of common parts for quick orders",
+      "Partner with designers & local startups"
+    ],
+    requirements: ["Printer maintenance skills","CAD proficiency"],
+    startupCost: "₹30,000 - ₹5,00,000",
+    tools: ["Cura/PrusaSlicer","Fusion 360/Blender","3D printers"],
+    marketingChannels: ["Maker communities","LinkedIn","Local meetups"],
+    revenueStreams: ["Per-part fees","Design-to-print services","Small-batch runs"],
+    kpis: ["Machine utilization","Turnaround time","Repeat orders"],
+    legal: "IP considerations when printing client designs; safety protocols for materials.",
+    pitfalls: "Underestimating print time/cost; poor finishing quality."
   }
 ];
