@@ -5146,7 +5146,368 @@ export const BUSINESSES = [
       "Engage heavily with comments",
       "Pitch to niche brands for deals",
       "Diversify with affiliate links"
+]   },
+  {
+    id: "airbnb-host",
+    title: "Airbnb Hosting (Short-Term Rental)",
+    type: "product",
+    skills: ["property-management","customer-service","photography"],
+    interests: ["travel","real-estate","interior-design"],
+    timePerDay: "1-3 hrs",
+    income_1_3_months: "₹30k – ₹3L+",
+    difficulty: "Medium",
+    trend: "Very High",
+    summary: "Rent out a spare room or property on Airbnb and earn passive income through short-term stays and tourism traffic.",
+    how: [
+      "Prepare and photograph your property professionally",
+      "List on Airbnb with clear pricing and descriptions",
+      "Automate booking, cleaning, and check-in",
+      "Encourage reviews and optimize for visibility",
+      "Scale by managing multiple listings or co-hosting"
+    ]
+  },
+  {
+    id: "cohosting-business",
+    title: "Airbnb Co-Hosting & Property Management",
+    type: "service",
+    skills: ["negotiation","cleaning-scheduling","guest-communication"],
+    interests: ["real-estate","business","automation"],
+    timePerDay: "2-4 hrs",
+    income_1_3_months: "₹15k – ₹2L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Manage Airbnb listings for property owners and earn a commission from each booking — great for those without their own property.",
+    how: [
+      "Find local Airbnb hosts needing help",
+      "Offer guest communication & management packages",
+      "Use tools like Hospitable or Hostaway for automation",
+      "Charge 10–25% commission per booking",
+      "Expand by managing multiple clients"
+    ]
+  },
+  {
+    id: "real-estate-agent-content",
+    title: "Real Estate Content Creator / Agent Influencer",
+    type: "service",
+    skills: ["video-editing","sales","presentation"],
+    interests: ["real-estate","marketing","storytelling"],
+    timePerDay: "2-6 hrs",
+    income_1_3_months: "₹20k – ₹2.5L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Showcase property tours, local guides, and home-buying tips on social media to attract clients or collaborate with developers.",
+    how: [
+      "Create TikTok/Reel-style tours of beautiful homes",
+      "Explain real estate terms simply for first-time buyers",
+      "Promote listings via social media channels",
+      "Build partnerships with agents & builders",
+      "Earn via commissions, sponsorships, and leads"
+    ]
+  },
+  {
+    id: "interior-staging-service",
+    title: "Interior Staging & Airbnb Styling Consultant",
+    type: "service",
+    skills: ["interior-design","visual-merchandising","photography"],
+    interests: ["design","architecture","marketing"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹20k – ₹1.5L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Offer interior styling services to Airbnb or property owners to increase rental appeal and daily rates.",
+    how: [
+      "Learn Airbnb staging best practices",
+      "Create before/after photo portfolio",
+      "Offer package deals (basic, premium, remote styling)",
+      "Collaborate with furniture or décor brands",
+      "Market services via Instagram or LinkedIn"
+    ]
+  },
+  {
+    id: "vacation-rental-marketer",
+    title: "Vacation Rental Digital Marketer",
+    type: "service",
+    skills: ["seo","facebook-ads","content-marketing"],
+    interests: ["marketing","travel","real-estate"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹25k – ₹2L+",
+    difficulty: "High",
+    trend: "High",
+    summary: "Help Airbnb or boutique stay owners grow visibility via SEO, ads, and social content for bookings and higher occupancy.",
+    how: [
+      "Build sample case studies or run ad tests",
+      "Offer SEO + Instagram growth packages",
+      "Use tools like RankMath & Meta Ads Manager",
+      "Charge a monthly retainer per client",
+      "Scale via agency or VA team"
+    ]
+  },
+  {
+    id: "real-estate-photographer",
+    title: "Real Estate & Airbnb Photographer",
+    type: "service",
+    skills: ["photography","editing","composition"],
+    interests: ["design","architecture","media"],
+    timePerDay: "3-8 hrs",
+    income_1_3_months: "₹15k – ₹1.5L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Shoot professional property photos and videos for Airbnb hosts, realtors, and developers — a growing niche.",
+    how: [
+      "Invest in a good camera & wide-angle lens",
+      "Build a local real estate photo portfolio",
+      "Offer video walk-throughs & drone add-ons",
+      "Promote via Google Maps & real estate groups",
+      "Upsell clients on monthly content updates"
+    ]
+  },
+  {
+    id: "real-estate-wholesaler",
+    title: "Real Estate Wholesaling (Find Deals, Earn Commission)",
+    type: "service",
+    skills: ["negotiation","market-research","sales"],
+    interests: ["business","real-estate","finance"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹30k – ₹3L+",
+    difficulty: "High",
+    trend: "Medium",
+    summary: "Find discounted properties, connect sellers with buyers, and earn a commission or ‘assignment fee’ without owning property.",
+    how: [
+      "Learn local market pricing & deal evaluation",
+      "Use cold calling & property listing platforms",
+      "Build a buyer and seller contact list",
+      "Negotiate assignment fees",
+      "Scale via digital CRM & online marketing"
+    ]
+  },
+  {
+    id: "micro-hostel-owner",
+    title: "Micro Hostel or Backpacker Stay",
+    type: "product",
+    skills: ["operations","event-planning","marketing"],
+    interests: ["travel","hospitality","real-estate"],
+    timePerDay: "5-10 hrs",
+    income_1_3_months: "₹50k – ₹4L+",
+    difficulty: "High",
+    trend: "Rising",
+    summary: "Turn a property into a themed micro hostel for young travelers — focus on aesthetics, local events, and experience.",
+    how: [
+      "Choose a vibrant location (college area, tourist city)",
+      "Design bunk or capsule-style setup",
+      "Market on Booking.com + Instagram",
+      "Host local events or tours for guests",
+      "Use influencers to grow visibility"
+    ]
+  },
+  {
+    id: "property-rental-agency",
+    title: "Online Property Rental Management Agency",
+    type: "service",
+    skills: ["client-management","advertising","contracts"],
+    interests: ["business","real-estate","operations"],
+    timePerDay: "4-8 hrs",
+    income_1_3_months: "₹50k – ₹5L+",
+    difficulty: "High",
+    trend: "High",
+    summary: "Manage multiple residential or vacation rentals for clients — handle bookings, listings, repairs, and cleaning teams.",
+    how: [
+      "Register your agency locally",
+      "Build a management team for operations",
+      "Create tiered property management plans",
+      "Offer additional digital promotion services",
+      "Expand to multiple cities or states"
+    ]
+  },
+  {
+    id: "co-living-space",
+    title: "Themed Co-Living Space Business",
+    type: "product",
+    skills: ["community-management","branding","interior-design"],
+    interests: ["real-estate","lifestyle","community-building"],
+    timePerDay: "4-10 hrs",
+    income_1_3_months: "₹1L – ₹10L+",
+    difficulty: "High",
+    trend: "Very High",
+    summary: "Create niche co-living experiences (e.g., creator house, women-only house, student hub) that offer style, comfort, and community.",
+    how: [
+      "Acquire or rent a large shared property",
+      "Design community-friendly interiors",
+      "Offer flexible stay durations",
+      "Build community activities & events",
+      "Market through social media + partnerships"
+    ]
+  },
+  {
+    id: "tinyhome-builder",
+    title: "Tiny Home / Container Stay Business",
+    type: "product",
+    skills: ["construction","design","business-development"],
+    interests: ["architecture","sustainability","travel"],
+    timePerDay: "5-10 hrs",
+    income_1_3_months: "₹1L – ₹8L+",
+    difficulty: "High",
+    trend: "Very High",
+    summary: "Build or buy small prefabricated homes and rent them out as unique getaways on Airbnb or your own booking platform.",
+    how: [
+      "Find scenic or off-grid land with permission",
+      "Partner with prefab builders or use containers",
+      "Design eco-luxury tiny homes with strong aesthetics",
+      "List on Airbnb with premium branding",
+      "Offer glamping, wellness, or remote work themes"
+    ]
+  },
+  {
+    id: "luxury-villa-marketer",
+    title: "Luxury Villa Rental Marketer",
+    type: "service",
+    skills: ["marketing","video-production","branding"],
+    interests: ["luxury","travel","real-estate"],
+    timePerDay: "3-8 hrs",
+    income_1_3_months: "₹50k – ₹5L+",
+    difficulty: "High",
+    trend: "Rising",
+    summary: "Promote high-end villas & vacation homes for property owners via cinematic videos, social media, and influencer tie-ups.",
+    how: [
+      "Shoot cinematic villa reels and drone shots",
+      "Run targeted Instagram + YouTube ads",
+      "Collaborate with luxury travel influencers",
+      "Charge retainers or commissions per booking",
+      "Expand into travel agency partnerships"
+    ]
+  },
+  {
+    id: "rental-arbitrage",
+    title: "Rental Arbitrage (Lease & Re-Rent)",
+    type: "product",
+    skills: ["negotiation","market-research","management"],
+    interests: ["real-estate","entrepreneurship"],
+    timePerDay: "2-6 hrs",
+    income_1_3_months: "₹40k – ₹3L+",
+    difficulty: "High",
+    trend: "High",
+    summary: "Lease apartments legally, furnish and list them on Airbnb for a higher nightly rate — profit from the price difference.",
+    how: [
+      "Find high-demand short-term rental areas",
+      "Negotiate landlord permissions",
+      "Furnish smartly for aesthetics and comfort",
+      "List across Airbnb, Booking, and Google Maps",
+      "Scale across 2–10 properties"
+    ]
+  },
+  {
+    id: "real-estate-blogger",
+    title: "Real Estate Blogger / Market Analyst",
+    type: "service",
+    skills: ["writing","research","seo"],
+    interests: ["real-estate","finance","education"],
+    timePerDay: "1-3 hrs",
+    income_1_3_months: "₹8k – ₹1L+",
+    difficulty: "Low",
+    trend: "Medium",
+    summary: "Educate audiences about home buying, property investments, and design — monetize via ads, affiliates, and eBooks.",
+    how: [
+      "Pick a region or investment niche",
+      "Post articles weekly with insights & visuals",
+      "Join affiliate programs (real estate tools, furniture)",
+      "Build a newsletter for buyers & investors",
+      "Sell paid templates or courses later"
+    ]
+  },
+  {
+    id: "virtual-interior-designer",
+    title: "Virtual Interior Designer / 3D Space Stylist",
+    type: "service",
+    skills: ["3d-modeling","interior-design","client-service"],
+    interests: ["design","architecture","home-decor"],
+    timePerDay: "3-5 hrs",
+    income_1_3_months: "₹15k – ₹1.5L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Offer digital 3D room design and décor suggestions remotely to home buyers or Airbnb owners.",
+    how: [
+      "Create portfolio using Canva + 3D tools (Planner5D, Foyr)",
+      "Offer virtual styling packages",
+      "Use Pinterest & Instagram to showcase results",
+      "Collaborate with small furniture brands",
+      "Offer add-on purchase lists via affiliate links"
+    ]
+  },
+  {
+    id: "real-estate-youtube",
+    title: "Real Estate YouTube Channel (Education & Tours)",
+    type: "service",
+    skills: ["video-production","research","storytelling"],
+    interests: ["media","finance","real-estate"],
+    timePerDay: "3-8 hrs",
+    income_1_3_months: "₹10k – ₹2L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Make real estate explainer videos, market analyses, and property tours — monetize through AdSense, sponsors, and referrals.",
+    how: [
+      "Create local market insight videos",
+      "Film walkthroughs or 3D renders",
+      "Collaborate with builders and agents",
+      "Post short educational clips for social reach",
+      "Earn via YouTube ads & course sales"
+    ]
+  },
+  {
+    id: "land-flipping",
+    title: "Land Flipping & Micro Investment",
+    type: "product",
+    skills: ["finance","market-analysis","negotiation"],
+    interests: ["business","investment","real-estate"],
+    timePerDay: "1-3 hrs",
+    income_1_3_months: "₹50k – ₹5L+",
+    difficulty: "High",
+    trend: "Rising",
+    summary: "Buy small, undervalued plots or agricultural land, and resell after improvement or re-zoning.",
+    how: [
+      "Identify emerging localities",
+      "Negotiate purchase below market value",
+      "Handle basic documentation & registration",
+      "Promote to investors or homebuilders",
+      "Scale via partnerships with realtors"
+    ]
+  },
+  {
+    id: "real-estate-course-creator",
+    title: "Real Estate Education Course Creator",
+    type: "product",
+    skills: ["teaching","curriculum-design","marketing"],
+    interests: ["education","real-estate","finance"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹20k – ₹3L+",
+    difficulty: "High",
+    trend: "Medium",
+    summary: "Teach people how to invest, flip, or rent property profitably through video courses and eBooks.",
+    how: [
+      "Define niche: beginner investors or Airbnb hosts",
+      "Outline modules (property search, ROI, negotiation)",
+      "Record video lessons and case studies",
+      "Host on Teachable or Gumroad",
+      "Market via YouTube and free webinars"
+    ]
+  },
+  {
+    id: "home-renovation-vlogger",
+    title: "Home Renovation / Flip Vlogger",
+    type: "service",
+    skills: ["videography","construction-basics","storytelling"],
+    interests: ["design","DIY","media"],
+    timePerDay: "3-7 hrs",
+    income_1_3_months: "₹15k – ₹2L+",
+    difficulty: "Medium",
+    trend: "Rising",
+    summary: "Film before-after home transformations, share design tips, and monetize via sponsors and renovation leads.",
+    how: [
+      "Pick renovation or DIY niche",
+      "Film cinematic before/after content",
+      "Post on YouTube + Instagram",
+      "Collaborate with brands (paint, tiles, tools)",
+      "Launch DIY design kits or consultations"
     ]
   }
+
 
   ];
