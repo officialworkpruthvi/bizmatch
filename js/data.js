@@ -3000,6 +3000,1145 @@ export const BUSINESSES = [
       "Partner with educators for data/content",
       "Scale into SaaS or subscription platform"
     ]
+  },
+  {
+    id: "personal-influencer",
+    title: "Personal Lifestyle Influencer",
+    type: "service",
+    skills: ["storytelling","social-media","branding"],
+    interests: ["fashion","travel","self-growth"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹10k – ₹1L+",
+    difficulty: "High",
+    trend: "Very High",
+    summary: "Grow an authentic audience by sharing your lifestyle, routines, and interests — then monetize through partnerships and your own digital products.",
+    how: [
+      "Pick 2-3 key niches (fashion, wellness, routines)",
+      "Post consistently across Reels, Shorts, TikTok",
+      "Engage daily via comments & DMs to build trust",
+      "Pitch small brands for UGC collaborations",
+      "Add affiliate links or launch digital guides later"
+    ]
+  },
+  {
+    id: "ugc-creator",
+    title: "UGC (User-Generated Content) Creator",
+    type: "service",
+    skills: ["video-editing","acting","marketing"],
+    interests: ["beauty","lifestyle","tech"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹15k – ₹1L+",
+    difficulty: "Medium",
+    trend: "Exploding",
+    summary: "Create high-quality videos and product demos for brands to use in ads — no personal following required.",
+    how: [
+      "Research trending UGC ad formats on TikTok",
+      "Create a 10-video UGC portfolio using random products",
+      "Pitch to DTC brands via email or influencer platforms",
+      "Charge per video or per package (3–5 clips)",
+      "Eventually create an agency or teach others"
+    ]
+  },
+  {
+    id: "viral-theme-page",
+    title: "Viral Instagram / TikTok Theme Page",
+    type: "product",
+    skills: ["curation","growth-hacking","design"],
+    interests: ["media","aesthetics","psychology"],
+    timePerDay: "1-3 hrs",
+    income_1_3_months: "₹5k – ₹70k",
+    difficulty: "Low",
+    trend: "High",
+    summary: "Build and grow faceless viral pages in specific niches (motivation, luxury, tech) and monetize via shoutouts or product deals.",
+    how: [
+      "Pick a viral niche + simple name",
+      "Post 2-3 reels daily with catchy captions",
+      "Use trending audios and repost strategies",
+      "Sell shoutouts or affiliate placements",
+      "Flip the page once it hits 100k+ followers"
+    ]
+  },
+  {
+    id: "social-media-manager",
+    title: "Freelance Social Media Manager",
+    type: "service",
+    skills: ["analytics","content-strategy","copywriting"],
+    interests: ["marketing","growth","creativity"],
+    timePerDay: "4-6 hrs",
+    income_1_3_months: "₹15k – ₹90k",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Manage content, captions, and growth for small brands or creators and charge monthly retainers.",
+    how: [
+      "Pick 1–2 platforms to specialize in (Instagram, LinkedIn)",
+      "Create a content calendar template for clients",
+      "Offer monthly management + strategy calls",
+      "Show ROI through engagement and reach reports",
+      "Scale into a micro-agency with 2–3 clients"
+    ]
+  },
+  {
+    id: "video-editor-for-creators",
+    title: "Short-Form Video Editor for Creators",
+    type: "service",
+    skills: ["editing","storytelling","ai-tools"],
+    interests: ["video","media","entertainment"],
+    timePerDay: "3-8 hrs",
+    income_1_3_months: "₹20k – ₹2L+",
+    difficulty: "Medium",
+    trend: "Exploding",
+    summary: "Edit Reels, Shorts, or TikToks for creators and agencies using high-retention formats.",
+    how: [
+      "Learn pacing, hook writing, and subtitle design",
+      "Study top viral accounts for editing style",
+      "Use CapCut, Premiere Pro, or AI editors",
+      "Offer monthly packages (15–30 videos)",
+      "Scale by hiring junior editors under your brand"
+    ]
+  },
+  {
+    id: "personal-brand-strategist",
+    title: "Personal Brand Strategist",
+    type: "service",
+    skills: ["storytelling","marketing","growth"],
+    interests: ["business","social-media","education"],
+    timePerDay: "4-6 hrs",
+    income_1_3_months: "₹25k – ₹1.5L+",
+    difficulty: "High",
+    trend: "Very High",
+    summary: "Help entrepreneurs and creators position their online image, define niche, and scale with authority-driven content.",
+    how: [
+      "Audit clients’ current presence and audience data",
+      "Design content strategy (pillars + tone + visuals)",
+      "Offer strategy calls + Notion brand hub setup",
+      "Upsell ghostwriting or content repurposing services",
+      "Build case studies to attract higher-tier clients"
+    ]
+  },
+  {
+    id: "meme-page-owner",
+    title: "Meme Page Owner / Content Curator",
+    type: "product",
+    skills: ["humor","trend-analysis","social-media"],
+    interests: ["pop-culture","media","marketing"],
+    timePerDay: "2-4 hrs",
+    income_1_3_months: "₹3k – ₹50k",
+    difficulty: "Low",
+    trend: "High",
+    summary: "Create or repost viral memes, grow engagement, and monetize via shoutouts, paid promotions, or merch.",
+    how: [
+      "Post 5–10 memes daily around one topic (relatable, student life, crypto)",
+      "Use repost permission strategy for growth",
+      "Create a community page around your humor tone",
+      "Monetize via ads, collabs, or own merch line",
+      "Expand into theme accounts or brand partnerships"
+    ]
+  },
+  {
+    id: "faceless-tiktok-youtube",
+    title: "Faceless TikTok / YouTube Creator",
+    type: "product",
+    skills: ["video-editing","research","ai-tools"],
+    interests: ["media","storytelling","finance"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹10k – ₹1L+",
+    difficulty: "Medium",
+    trend: "Exploding",
+    summary: "Produce viral faceless videos using AI voices, stock clips, and storytelling for monetization via ads and affiliates.",
+    how: [
+      "Pick niche (tech facts, business stories, motivation)",
+      "Script with ChatGPT and use AI voice tools",
+      "Use stock clips and background music for visuals",
+      "Upload 1–2 videos daily on Shorts/TikTok",
+      "Monetize via affiliate links and brand ads"
+    ]
+  },
+  {
+    id: "social-content-agency",
+    title: "Content Creation Agency",
+    type: "service",
+    skills: ["team-management","strategy","editing"],
+    interests: ["business","media","marketing"],
+    timePerDay: "6-8 hrs",
+    income_1_3_months: "₹40k – ₹3L+",
+    difficulty: "High",
+    trend: "Very High",
+    summary: "Build a small remote agency offering complete social content services: ideation, shooting, editing, and scheduling.",
+    how: [
+      "Start with 2 freelance editors + strategist",
+      "Offer 360° packages (content + management + analytics)",
+      "Use Notion dashboards for client tracking",
+      "Show monthly results via KPIs",
+      "Scale by onboarding multiple clients under retainers"
+    ]
+  },
+  {
+    id: "ai-reels-generator",
+    title: "AI-Powered Reels & Shorts Generator",
+    type: "product",
+    skills: ["ai-tools","automation","editing"],
+    interests: ["tech","media","innovation"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹15k – ₹1L+",
+    difficulty: "High",
+    trend: "Exploding",
+    summary: "Use AI tools to automatically generate trending Reels or Shorts for creators and sell templates or scripts.",
+    how: [
+      "Use ChatGPT + Pika + ElevenLabs for automation flow",
+      "Generate content ideas + scripts using prompt libraries",
+      "Sell ready-made content packs (e.g., ‘20 viral reels pack’)",
+      "Build automation dashboards with Notion or Airtable",
+      "Sell as SaaS, template, or monthly content service"
+    ]
+  },
+ {
+    id: "ghostwriter-for-creators",
+    title: "Ghostwriter for Creators & Entrepreneurs",
+    type: "service",
+    skills: ["writing","psychology","personal-branding"],
+    interests: ["marketing","growth","communication"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹25k – ₹2L+",
+    difficulty: "High",
+    trend: "Very High",
+    summary: "Write viral threads, posts, or newsletters for busy creators or founders and earn monthly retainers.",
+    how: [
+      "Study voice & tone of your target clients",
+      "Reverse-engineer viral tweets or LinkedIn posts",
+      "Offer a free 1-post trial to attract your first client",
+      "Charge per post or per monthly package",
+      "Scale into a ghostwriting agency"
+    ]
+  },
+  {
+    id: "twitter-growth-expert",
+    title: "X (Twitter) Growth Strategist",
+    type: "service",
+    skills: ["copywriting","growth-hacking","branding"],
+    interests: ["tech","writing","networking"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹10k – ₹80k",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Help individuals and startups grow on X by managing their content strategy, threads, and engagement loops.",
+    how: [
+      "Analyze successful creators’ posting patterns",
+      "Create 30-day content calendars per client",
+      "Automate engagement using tools like TweetHunter",
+      "Offer ghostwriting + analytics bundle",
+      "Upsell community or newsletter setup"
+    ]
+  },
+  {
+    id: "linkedin-personal-branding",
+    title: "LinkedIn Personal Branding Consultant",
+    type: "service",
+    skills: ["branding","copywriting","networking"],
+    interests: ["business","education","growth"],
+    timePerDay: "2-4 hrs",
+    income_1_3_months: "₹15k – ₹1L+",
+    difficulty: "Medium",
+    trend: "Very High",
+    summary: "Help professionals grow authority on LinkedIn through optimized profiles, viral post writing, and DM outreach.",
+    how: [
+      "Redesign clients’ About + Headline sections",
+      "Write 3–5 weekly posts around their niche",
+      "Engage on key industry posts daily",
+      "Track growth using analytics tools",
+      "Bundle this with ghostwriting retainers"
+    ]
+  },
+  {
+    id: "community-builder",
+    title: "Community Builder / Discord Manager",
+    type: "service",
+    skills: ["community-management","event-hosting","content"],
+    interests: ["gaming","education","social"],
+    timePerDay: "3-5 hrs",
+    income_1_3_months: "₹10k – ₹75k",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Build and manage Discord or Telegram communities for brands or creators and monetize through access fees or partnerships.",
+    how: [
+      "Learn community engagement frameworks",
+      "Host weekly AMAs or challenges",
+      "Offer moderation and member analytics services",
+      "Create VIP channels or paid tiers",
+      "Partner with creators for co-branded communities"
+    ]
+  },
+  {
+    id: "newsletter-creator",
+    title: "Newsletter Business / Curator",
+    type: "product",
+    skills: ["writing","email-marketing","design"],
+    interests: ["media","education","business"],
+    timePerDay: "2-4 hrs",
+    income_1_3_months: "₹5k – ₹70k",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Build a niche newsletter (AI tools, creators, finance) and monetize via sponsorships, digital products, or subscriptions.",
+    how: [
+      "Choose high-demand niche and tone",
+      "Launch using Beehiiv/Substack",
+      "Promote via social media threads & reels",
+      "Add sponsors once you reach 1k+ subscribers",
+      "Sell paid memberships or eBooks later"
+    ]
+  },
+  {
+    id: "content-repurposing-expert",
+    title: "Content Repurposing Specialist",
+    type: "service",
+    skills: ["video-editing","copywriting","automation"],
+    interests: ["media","systems","growth"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹20k – ₹1.5L+",
+    difficulty: "Medium",
+    trend: "Very High",
+    summary: "Turn one long-form video or podcast into 20+ short clips, carousels, and tweets for creators or brands.",
+    how: [
+      "Create a repurposing system with AI tools",
+      "Offer monthly batch editing packages",
+      "Show time-saved value in your offer",
+      "Bundle analytics + caption writing",
+      "Hire assistants once client load increases"
+    ]
+  },
+  {
+    id: "ai-content-automation",
+    title: "AI Content Automation Agency",
+    type: "service",
+    skills: ["ai-tools","prompt-engineering","automation"],
+    interests: ["tech","marketing","innovation"],
+    timePerDay: "4-6 hrs",
+    income_1_3_months: "₹25k – ₹2L+",
+    difficulty: "High",
+    trend: "Exploding",
+    summary: "Automate creators’ content pipeline using AI — script generation, caption writing, and post scheduling.",
+    how: [
+      "Build workflows using Zapier + ChatGPT + Airtable",
+      "Offer automation setup services to agencies",
+      "Create packaged Notion or Airtable templates",
+      "Charge setup + maintenance fees",
+      "Expand into SaaS or subscription service"
+    ]
+  },
+  {
+    id: "threadwriter-agency",
+    title: "Threadwriting & Viral Copy Agency",
+    type: "service",
+    skills: ["copywriting","virality","research"],
+    interests: ["business","writing","growth"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹20k – ₹1.2L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Create viral threads and content packs for clients on X (Twitter), LinkedIn, and Instagram captions.",
+    how: [
+      "Analyze high-performing viral content",
+      "Build a system for idea → thread → hook writing",
+      "Create subscription plans (4–8 threads/week)",
+      "Bundle ghostwriting with analytics",
+      "Scale with a small writing team"
+    ]
+  },
+  {
+    id: "social-audit-consultant",
+    title: "Social Media Audit & Strategy Consultant",
+    type: "service",
+    skills: ["analytics","branding","marketing"],
+    interests: ["strategy","growth","consulting"],
+    timePerDay: "2-4 hrs",
+    income_1_3_months: "₹10k – ₹80k",
+    difficulty: "Low",
+    trend: "High",
+    summary: "Offer detailed audits of social accounts and suggest strategy changes to improve growth and monetization.",
+    how: [
+      "Use analytics tools to identify weak spots",
+      "Create audit templates (profile, content, engagement)",
+      "Deliver strategy reports via Notion/Canva",
+      "Upsell monthly strategy sessions",
+      "Bundle audits with management services"
+    ]
+  },
+  {
+    id: "platform-specific-expert",
+    title: "Platform Specialist (Threads, YouTube Shorts, Pinterest)",
+    type: "service",
+    skills: ["trend-analysis","growth-hacking","content"],
+    interests: ["social-media","tech","aesthetics"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹10k – ₹70k",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Specialize in one fast-growing platform and offer consulting or content packages for brands that want to grow there.",
+    how: [
+      "Research growth algorithms and trends",
+      "Create a portfolio of results or mock pages",
+      "Offer 1:1 strategy calls and growth guides",
+      "Run ads or reels teaching others about it",
+      "Expand into mini-agency or paid course"
+    ]
+  },
+  {
+    id: "ai-template-store",
+    title: "AI Prompt & Template Store",
+    type: "product",
+    skills: ["ai-tools","design","automation"],
+    interests: ["business","tech","productivity"],
+    timePerDay: "2-4 hrs",
+    income_1_3_months: "₹15k – ₹1.5L+",
+    difficulty: "Medium",
+    trend: "Exploding",
+    summary: "Create and sell ChatGPT, Midjourney, or Notion templates for creators and entrepreneurs via Gumroad or Etsy.",
+    how: [
+      "Research pain points (content, resumes, workflows)",
+      "Build customizable prompt packs and templates",
+      "Design aesthetic covers using Canva",
+      "List products on Gumroad or NotionMarket",
+      "Use Reels/TikToks for organic promotion"
+    ]
+  },
+  {
+    id: "ai-course-creator",
+    title: "AI Course & Tutorial Creator",
+    type: "product",
+    skills: ["education","ai-tools","video-editing"],
+    interests: ["teaching","innovation","tech"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹20k – ₹2L+",
+    difficulty: "High",
+    trend: "Very High",
+    summary: "Build and sell micro-courses teaching AI tools (ChatGPT, Canva AI, Midjourney) for beginners and freelancers.",
+    how: [
+      "Pick a single topic (e.g., ChatGPT for Freelancers)",
+      "Script short, actionable modules",
+      "Record screencasts or slideshows",
+      "Host on platforms like Gumroad or Podia",
+      "Upsell 1:1 AI consulting sessions"
+    ]
+  },
+  {
+    id: "automation-consultant",
+    title: "AI Automation Consultant",
+    type: "service",
+    skills: ["automation","workflow-design","ai-tools"],
+    interests: ["business","tech","systems"],
+    timePerDay: "4-6 hrs",
+    income_1_3_months: "₹30k – ₹2.5L+",
+    difficulty: "High",
+    trend: "Exploding",
+    summary: "Help startups and solopreneurs automate repetitive work using tools like Zapier, Make, and ChatGPT APIs.",
+    how: [
+      "Learn business workflows (leads, content, CRM)",
+      "Design no-code automations using AI triggers",
+      "Offer setup + monthly support packages",
+      "Target agencies and eCommerce brands",
+      "Create a small automation studio"
+    ]
+  },
+  {
+    id: "faceless-ai-youtube",
+    title: "Faceless AI YouTube Automation Channel",
+    type: "product",
+    skills: ["video-editing","scriptwriting","ai-tools"],
+    interests: ["media","tech","storytelling"],
+    timePerDay: "3-8 hrs",
+    income_1_3_months: "₹15k – ₹2L+",
+    difficulty: "High",
+    trend: "Very High",
+    summary: "Run YouTube channels that use AI-generated scripts, voices, and visuals — monetized via ads and affiliates.",
+    how: [
+      "Pick a storytelling niche (tech, business, mystery)",
+      "Use ChatGPT + Pika + ElevenLabs for production",
+      "Post 2–3 videos weekly for consistency",
+      "Monetize via AdSense, affiliate links, and sponsors",
+      "Scale into multiple faceless channels"
+    ]
+  },
+  {
+    id: "notion-template-designer",
+    title: "Notion Template Designer",
+    type: "product",
+    skills: ["design","organization","productivity"],
+    interests: ["aesthetics","tech","business"],
+    timePerDay: "1-3 hrs",
+    income_1_3_months: "₹5k – ₹70k",
+    difficulty: "Low",
+    trend: "High",
+    summary: "Design Notion dashboards and planners for students, freelancers, and creators — sell them on marketplaces.",
+    how: [
+      "Research viral Notion templates (planner, business OS)",
+      "Design functional + aesthetic templates",
+      "List on Gumroad, Etsy, or Notion Market",
+      "Promote with demo Reels or carousels",
+      "Bundle templates into themed packs later"
+    ]
+  },
+  {
+    id: "chatbot-builder",
+    title: "Custom Chatbot Builder (No-Code)",
+    type: "service",
+    skills: ["ai-tools","no-code","ux-design"],
+    interests: ["tech","automation","customer-service"],
+    timePerDay: "4-6 hrs",
+    income_1_3_months: "₹30k – ₹2L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Build chatbots for businesses using no-code tools like Voiceflow, Chatbase, or Botpress — charge per project or monthly.",
+    how: [
+      "Learn no-code bot tools & ChatGPT integration",
+      "Build demo chatbot for your portfolio",
+      "Offer setup for websites or customer support",
+      "Add custom branding & data training options",
+      "Scale with subscription-based maintenance"
+    ]
+  },
+  {
+    id: "digital-product-library",
+    title: "Digital Product Library Business",
+    type: "product",
+    skills: ["design","organization","marketing"],
+    interests: ["education","aesthetics","business"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹10k – ₹1L+",
+    difficulty: "Medium",
+    trend: "Very High",
+    summary: "Create and sell bundles of digital assets — templates, icons, planners, workbooks — on Gumroad or Etsy.",
+    how: [
+      "Curate or design 20–50 unique digital products",
+      "Create professional mockups & previews",
+      "List on Gumroad with detailed descriptions",
+      "Promote through content creators",
+      "Add new bundles every month for recurring sales"
+    ]
+  },
+  {
+    id: "affiliate-automation-funnel",
+    title: "Automated Affiliate Funnel",
+    type: "product",
+    skills: ["copywriting","marketing","automation"],
+    interests: ["finance","tech","education"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹5k – ₹80k",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Set up automated affiliate funnels that capture leads, nurture them with email sequences, and convert into recurring income.",
+    how: [
+      "Pick a profitable niche & high-commission products",
+      "Build a landing page using Systeme.io or Notion",
+      "Write a 5-email nurturing sequence",
+      "Automate via ConvertKit or Beehiiv",
+      "Drive traffic using short-form content or ads"
+    ]
+  },
+  {
+    id: "ai-thumbnail-designer",
+    title: "AI Thumbnail & Visual Designer",
+    type: "service",
+    skills: ["design","ai-tools","psychology"],
+    interests: ["media","branding","art"],
+    timePerDay: "2-4 hrs",
+    income_1_3_months: "₹15k – ₹1L+",
+    difficulty: "Low",
+    trend: "High",
+    summary: "Use AI tools like Midjourney and Photoshop to create high-performing YouTube thumbnails and social visuals for creators.",
+    how: [
+      "Study CTR and emotion triggers in viral thumbnails",
+      "Design 10-sample portfolio using AI-generated visuals",
+      "Offer per-thumbnail or package pricing",
+      "Promote via Twitter/Reddit creator groups",
+      "Build a small design studio for volume clients"
+    ]
+  },
+  {
+    id: "ai-saas-microtool",
+    title: "AI SaaS Microtool Builder",
+    type: "product",
+    skills: ["coding","ui-design","ai-api"],
+    interests: ["tech","automation","startups"],
+    timePerDay: "4-8 hrs",
+    income_1_3_months: "₹40k – ₹5L+",
+    difficulty: "High",
+    trend: "Exploding",
+    summary: "Develop small AI-powered web apps solving niche problems (caption generator, resume builder, script creator).",
+    how: [
+      "Identify a narrow, high-demand niche",
+      "Build MVP using Replit, Next.js, or Bubble",
+      "Integrate OpenAI or HuggingFace APIs",
+      "Monetize via subscriptions or lifetime deals",
+      "Scale through microtool bundles or B2B offers"
+    ]
+  },
+  {
+    id: "ai-voice-cloning-service",
+    title: "AI Voice Cloning & Audio Production Service",
+    type: "service",
+    skills: ["ai-tools","audio-engineering","marketing"],
+    interests: ["media","tech","music"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹25k – ₹2L+",
+    difficulty: "High",
+    trend: "Exploding",
+    summary: "Offer custom AI voiceovers and cloned voices for YouTube, podcasts, and ad creators.",
+    how: [
+      "Use tools like ElevenLabs, PlayHT, or Replica Studios",
+      "Record clean reference voices for clients",
+      "Offer editing + delivery with background music",
+      "Sell recurring content voiceover packages",
+      "Expand into custom AI sound design services"
+    ]
+  },
+  {
+    id: "plr-digital-products",
+    title: "PLR (Private Label Rights) Digital Product Reseller",
+    type: "product",
+    skills: ["marketing","copywriting","branding"],
+    interests: ["education","finance","business"],
+    timePerDay: "1-3 hrs",
+    income_1_3_months: "₹10k – ₹1L+",
+    difficulty: "Low",
+    trend: "High",
+    summary: "Buy pre-made ebooks, courses, or templates with PLR licenses and resell them under your brand.",
+    how: [
+      "Find trending PLR products on PLR.me or IDPLR",
+      "Rebrand with new designs and sales copy",
+      "Host on Gumroad, Payhip, or your site",
+      "Use Reels/Threads to drive traffic",
+      "Bundle 3–5 PLR items into themed offers"
+    ]
+  },
+  {
+    id: "ai-agency-automation",
+    title: "Automated AI Marketing Agency",
+    type: "service",
+    skills: ["automation","ai-tools","sales"],
+    interests: ["business","marketing","systems"],
+    timePerDay: "4-8 hrs",
+    income_1_3_months: "₹50k – ₹3L+",
+    difficulty: "High",
+    trend: "Very High",
+    summary: "Run a lean digital agency using AI tools for ad copy, content creation, and client communication.",
+    how: [
+      "Use ChatGPT for scripts & ad copy",
+      "Automate onboarding & reports via Zapier + Notion",
+      "Outsource design/editing to freelancers",
+      "Charge monthly retainers for packages",
+      "Upsell automation maintenance or audits"
+    ]
+  },
+  {
+    id: "ai-newsletter-business",
+    title: "AI Curated Newsletter Business",
+    type: "product",
+    skills: ["writing","automation","marketing"],
+    interests: ["education","media","business"],
+    timePerDay: "2-4 hrs",
+    income_1_3_months: "₹5k – ₹70k",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Use AI to curate and summarize industry news, then monetize your newsletter via sponsors and affiliates.",
+    how: [
+      "Pick a niche (AI, finance, creator economy)",
+      "Automate content curation with ChatGPT + RSS",
+      "Publish weekly on Beehiiv or Substack",
+      "Add affiliate products or ads after 1k subs",
+      "Sell sponsored placements to startups"
+    ]
+  },
+  {
+    id: "ai-face-generator",
+    title: "AI Generated Faces / Model Asset Store",
+    type: "product",
+    skills: ["ai-tools","design","marketing"],
+    interests: ["art","media","fashion"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹15k – ₹1L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Create AI-generated human portraits and license them to designers, game studios, and ad creators.",
+    how: [
+      "Use Midjourney or Leonardo AI to generate diverse faces",
+      "Organize by style, ethnicity, lighting, emotion",
+      "Sell packs on marketplaces or your own site",
+      "Offer subscription access to all packs",
+      "Expand into 3D and character generation"
+    ]
+  },
+  {
+    id: "printables-empire",
+    title: "Printable Products & Digital Stationery Empire",
+    type: "product",
+    skills: ["design","etsy-marketing","organization"],
+    interests: ["aesthetics","productivity","education"],
+    timePerDay: "2-4 hrs",
+    income_1_3_months: "₹10k – ₹1.5L+",
+    difficulty: "Low",
+    trend: "Very High",
+    summary: "Design printable planners, calendars, trackers, and wall art for Etsy and Notion users.",
+    how: [
+      "Use Canva or Affinity Designer for layouts",
+      "Design 20+ aesthetic printable templates",
+      "List optimized listings on Etsy with SEO tags",
+      "Create seasonal bundles (holiday, student, fitness)",
+      "Upsell lifetime template access packs"
+    ]
+  },
+  {
+    id: "ai-stock-footage-business",
+    title: "AI Stock Footage & B-Roll Seller",
+    type: "product",
+    skills: ["video-editing","ai-tools","cinematography"],
+    interests: ["film","media","creativity"],
+    timePerDay: "2-6 hrs",
+    income_1_3_months: "₹15k – ₹1L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Generate or record unique footage and sell it as B-roll on marketplaces like Pexels, Artgrid, or your own site.",
+    how: [
+      "Capture or generate cinematic stock clips",
+      "Edit into high-quality packs by category",
+      "Sell via stock platforms or bundle offers",
+      "Use AI upscalers for 4K quality",
+      "Automate distribution using multiple platforms"
+    ]
+  },
+  {
+    id: "subscription-template-club",
+    title: "Subscription Template Club",
+    type: "product",
+    skills: ["design","automation","marketing"],
+    interests: ["productivity","business","education"],
+    timePerDay: "3-5 hrs",
+    income_1_3_months: "₹25k – ₹2L+",
+    difficulty: "Medium",
+    trend: "Very High",
+    summary: "Offer a monthly subscription giving users access to premium digital templates, guides, and Notion dashboards.",
+    how: [
+      "Design 50+ templates initially (Notion, Canva, Google Sheets)",
+      "Host content behind a paywall (Gumroad, LemonSqueezy)",
+      "Release new drops monthly to retain members",
+      "Build community around productivity tools",
+      "Bundle access with a private Discord or course"
+    ]
+  },
+  {
+    id: "ai-content-translation-service",
+    title: "AI-Powered Translation & Localization Service",
+    type: "service",
+    skills: ["language","ai-tools","copywriting"],
+    interests: ["education","tech","globalization"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹20k – ₹1.5L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Use AI translators and proofreading tools to localize digital content, websites, and courses for global audiences.",
+    how: [
+      "Use DeepL + ChatGPT for translation accuracy",
+      "Offer multi-language packs for content creators",
+      "Specialize in fast-growing regions (India, LATAM)",
+      "Bundle subtitles + translation packages",
+      "Scale with contract translators + QA systems"
+    ]
+  },
+  {
+    id: "ai-blog-network",
+    title: "Automated AI Blog Network",
+    type: "product",
+    skills: ["seo","ai-writing","automation"],
+    interests: ["tech","media","business"],
+    timePerDay: "4-8 hrs",
+    income_1_3_months: "₹50k – ₹3L+",
+    difficulty: "High",
+    trend: "Exploding",
+    summary: "Build niche AI-written blogs generating AdSense and affiliate income — fully automated using AI + SEO tools.",
+    how: [
+      "Pick 5 profitable micro-niches (finance, fitness, tech)",
+      "Generate 50+ SEO articles using AI tools",
+      "Use SurferSEO or NeuronWriter for optimization",
+      "Monetize via ads, affiliate links, and backlinks",
+      "Automate posting and scheduling via Zapier"
+    ]
+  },
+  {
+    id: "digital-art-prints",
+    title: "Digital Art Print Store (Etsy / Shopify)",
+    type: "product",
+    skills: ["design","branding","marketing"],
+    interests: ["art","aesthetics","decor"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹5k – ₹80k",
+    difficulty: "Low",
+    trend: "High",
+    summary: "Sell downloadable aesthetic wall art prints, posters, and quote designs for home decor lovers.",
+    how: [
+      "Use Procreate, Canva, or Photoshop for high-quality prints",
+      "Create themed collections (boho, minimal, motivational)",
+      "Upload to Etsy with SEO-optimized listings",
+      "Offer custom color requests for extra income",
+      "Bundle prints into seasonal packs"
+    ]
+  },
+  {
+    id: "notion-template-designer",
+    title: "Notion Template Designer",
+    type: "product",
+    skills: ["design","organization","productivity"],
+    interests: ["tech","education","aesthetics"],
+    timePerDay: "1-4 hrs",
+    income_1_3_months: "₹10k – ₹1L+",
+    difficulty: "Medium",
+    trend: "Very High",
+    summary: "Design and sell functional + aesthetic Notion templates for students, entrepreneurs, and content creators.",
+    how: [
+      "Study bestsellers on Gumroad and Etsy",
+      "Create visually clean & useful templates",
+      "Offer bundles (student hub, business dashboard)",
+      "Promote on TikTok and Twitter with demos",
+      "Sell lifetime access packs or memberships"
+    ]
+  },
+  {
+    id: "digital-journal-brand",
+    title: "Digital Journaling Brand (GoodNotes / iPad)",
+    type: "product",
+    skills: ["design","layout","branding"],
+    interests: ["self-care","productivity","art"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹15k – ₹1L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Design and sell interactive digital journals and planners for iPad apps like GoodNotes or Notability.",
+    how: [
+      "Design interactive PDFs using Keynote or Canva",
+      "Include tabs, stickers, and guided pages",
+      "Sell on Etsy and Pinterest",
+      "Collaborate with journaling influencers",
+      "Create seasonal or themed journal drops"
+    ]
+  },
+  {
+    id: "aesthetic-brand-designer",
+    title: "Freelance Aesthetic Brand Designer",
+    type: "service",
+    skills: ["graphic-design","branding","client-communication"],
+    interests: ["design","fashion","aesthetics"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹20k – ₹2L+",
+    difficulty: "Medium",
+    trend: "Very High",
+    summary: "Offer brand identity design — logos, moodboards, and social kits for small brands and influencers.",
+    how: [
+      "Curate a portfolio with mockups",
+      "Offer brand identity packages on Fiverr/Upwork",
+      "Use moodboards & Pinterest for inspiration",
+      "Create cohesive deliverables (logo, palette, fonts)",
+      "Upsell template kits & strategy sessions"
+    ]
+  },
+  {
+    id: "aesthetic-reel-editor",
+    title: "Aesthetic Reels & Edits Service",
+    type: "service",
+    skills: ["video-editing","storytelling","color-grading"],
+    interests: ["media","fashion","cinematography"],
+    timePerDay: "2-6 hrs",
+    income_1_3_months: "₹10k – ₹1.5L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Create cinematic reels and edits for influencers, small brands, and lifestyle creators.",
+    how: [
+      "Edit using CapCut, Premiere Pro, or VN",
+      "Offer style-specific edits (vintage, pink, cinematic)",
+      "Find clients via Instagram & DMs",
+      "Charge by project or monthly retainer",
+      "Use trending sounds & transitions for virality"
+    ]
+  },
+  {
+    id: "canva-template-store",
+    title: "Canva Template Store",
+    type: "product",
+    skills: ["design","marketing","trend-research"],
+    interests: ["business","social-media","aesthetics"],
+    timePerDay: "2-4 hrs",
+    income_1_3_months: "₹15k – ₹1L+",
+    difficulty: "Low",
+    trend: "Very High",
+    summary: "Sell editable Canva templates (social media posts, resumes, flyers, presentations) for creators and brands.",
+    how: [
+      "Design 30–50 templates in Canva Pro",
+      "Sell on Etsy, Gumroad, or your own store",
+      "Focus on aesthetic & business niches",
+      "Bundle templates by color themes or styles",
+      "Offer a subscription club for monthly drops"
+    ]
+  },
+  {
+    id: "digital-scrapbook-kits",
+    title: "Digital Scrapbook Kit Business",
+    type: "product",
+    skills: ["design","creativity","marketing"],
+    interests: ["crafts","aesthetics","memory-keeping"],
+    timePerDay: "1-3 hrs",
+    income_1_3_months: "₹5k – ₹70k",
+    difficulty: "Low",
+    trend: "Medium",
+    summary: "Design and sell aesthetic scrapbook elements like stickers, papers, and frames as digital downloads.",
+    how: [
+      "Use Procreate or Canva to design sets",
+      "Bundle matching elements into cohesive kits",
+      "Sell through Etsy and Pinterest",
+      "Offer freebies for email growth",
+      "Create themed kits (travel, holiday, pastel)"
+    ]
+  },
+  {
+    id: "preset-and-lut-store",
+    title: "Photo Presets & LUT Store",
+    type: "product",
+    skills: ["photo-editing","color-grading","branding"],
+    interests: ["photography","fashion","film"],
+    timePerDay: "1-4 hrs",
+    income_1_3_months: "₹10k – ₹90k",
+    difficulty: "Low",
+    trend: "High",
+    summary: "Create and sell Lightroom presets and LUTs for creators who want a cohesive aesthetic.",
+    how: [
+      "Develop custom presets in Lightroom or DaVinci",
+      "Showcase before/after results on social media",
+      "Sell packs with themes (moody, bright, filmic)",
+      "Offer influencer collaborations for reach",
+      "Include video tutorials for buyers"
+    ]
+  },
+  {
+    id: "aesthetic-pinterest-manager",
+    title: "Aesthetic Pinterest Growth Manager",
+    type: "service",
+    skills: ["pinterest-seo","design","copywriting"],
+    interests: ["marketing","aesthetics","lifestyle"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹20k – ₹1L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Manage Pinterest accounts and drive website traffic or Etsy sales through aesthetic pinboards.",
+    how: [
+      "Create optimized pin designs & boards",
+      "Use Tailwind or Canva to batch-schedule posts",
+      "Focus on SEO-friendly titles and tags",
+      "Work with 3–5 clients for steady income",
+      "Upsell Pinterest + Blog strategy packages"
+    ]
+  },
+  {
+    id: "aesthetic-merch-brand",
+    title: "Aesthetic Merch / Apparel Brand",
+    type: "product",
+    skills: ["design","branding","marketing"],
+    interests: ["fashion","art","self-expression"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹25k – ₹2L+",
+    difficulty: "High",
+    trend: "Very High",
+    summary: "Launch a minimal or statement-driven apparel brand appealing to Gen Z's aesthetic culture.",
+    how: [
+      "Develop brand identity (name, typography, palette)",
+      "Use Print-on-Demand for low-cost production",
+      "Design 10+ apparel pieces (tees, hoodies, totes)",
+      "Use influencer collabs for early traction",
+      "Create lifestyle reels showcasing your vibe"
+    ]
+  },
+   {
+    id: "digital-zine-publisher",
+    title: "Digital Zine & Mini Magazine Publisher",
+    type: "product",
+    skills: ["writing","design","storytelling"],
+    interests: ["art","culture","fashion"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹10k – ₹80k",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Create aesthetic mini-magazines (digital zines) exploring art, self-expression, or subcultures — sold as PDFs or subscriptions.",
+    how: [
+      "Choose a niche (art, lifestyle, indie culture)",
+      "Design in Canva, InDesign, or Affinity",
+      "Publish on Gumroad or Patreon",
+      "Collaborate with small creators for features",
+      "Bundle zines into seasonal or collector editions"
+    ]
+  },
+  {
+    id: "cinematic-edit-agency",
+    title: "Cinematic Edit & Visual Storytelling Agency",
+    type: "service",
+    skills: ["video-editing","cinematography","branding"],
+    interests: ["film","music","aesthetics"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹25k – ₹2L+",
+    difficulty: "High",
+    trend: "Very High",
+    summary: "Create cinematic short-form content for brands, influencers, and musicians with storytelling and visual emotion.",
+    how: [
+      "Develop a unique cinematic editing style",
+      "Offer emotional storytelling reels for creators",
+      "Build a portfolio of branded visuals",
+      "Use high-end color grading & transitions",
+      "Scale into an agency offering packages"
+    ]
+  },
+  {
+    id: "photo-preset-club",
+    title: "Photo Preset Subscription Club",
+    type: "product",
+    skills: ["photo-editing","marketing","branding"],
+    interests: ["photography","aesthetics","fashion"],
+    timePerDay: "1-4 hrs",
+    income_1_3_months: "₹15k – ₹1L+",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Offer a membership that gives users monthly drops of Lightroom presets and LUTs in different styles.",
+    how: [
+      "Create 10–20 preset packs in Lightroom",
+      "Build a subscription website or Patreon tier",
+      "Offer early access & members-only packs",
+      "Collaborate with photographers for drops",
+      "Add tutorials & editing guides for engagement"
+    ]
+  },
+  {
+    id: "indie-magazine-studio",
+    title: "Indie Digital Magazine Studio",
+    type: "service",
+    skills: ["content-strategy","design","publishing"],
+    interests: ["media","art","storytelling"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹30k – ₹2L+",
+    difficulty: "High",
+    trend: "Medium",
+    summary: "Design and produce digital or print-on-demand indie magazines for small creators, brands, and communities.",
+    how: [
+      "Offer layout + design services for digital issues",
+      "Use Canva Pro or Adobe InDesign templates",
+      "Help clients publish via Issuu or Blurb",
+      "Create package pricing for magazine series",
+      "Add marketing & ad placement add-ons"
+    ]
+  },
+  {
+    id: "digital-poster-brand",
+    title: "Digital Poster & Typography Art Brand",
+    type: "product",
+    skills: ["typography","design","branding"],
+    interests: ["art","culture","home-decor"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹10k – ₹1L+",
+    difficulty: "Low",
+    trend: "Very High",
+    summary: "Create and sell bold typography and quote-based posters for aesthetic interiors and creator workspaces.",
+    how: [
+      "Design minimal, motivational, or bold statement posters",
+      "Sell on Etsy and your own Shopify mini-store",
+      "Offer customizable prints for creators and startups",
+      "Use Pinterest and Instagram Reels for traffic",
+      "Expand into framed physical prints later"
+    ]
+  },
+  {
+    id: "moodboard-studio",
+    title: "Moodboard Creation Studio",
+    type: "service",
+    skills: ["visual-design","color-theory","branding"],
+    interests: ["fashion","marketing","aesthetics"],
+    timePerDay: "2-4 hrs",
+    income_1_3_months: "₹10k – ₹90k",
+    difficulty: "Medium",
+    trend: "High",
+    summary: "Offer aesthetic brand and project moodboards for creators, brands, and agencies to define their visual identity.",
+    how: [
+      "Curate visual references using Pinterest + Milanote",
+      "Offer brand moodboard packages (starter, premium)",
+      "Bundle with palette & font guides",
+      "Promote on Instagram using visual carousels",
+      "Upsell full brand design or logo services"
+    ]
+  },
+  {
+    id: "creative-course-creator",
+    title: "Creative Skills Course Creator",
+    type: "product",
+    skills: ["teaching","design","marketing"],
+    interests: ["education","art","self-improvement"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹20k – ₹1.5L+",
+    difficulty: "High",
+    trend: "Very High",
+    summary: "Teach creative skills like journaling, design, or photography through structured courses or workshops.",
+    how: [
+      "Record short, aesthetic video lessons",
+      "Host on platforms like Gumroad, Teachable, or Kajabi",
+      "Create attractive thumbnails & worksheets",
+      "Offer tiered pricing (beginner, pro, mentorship)",
+      "Promote through reels & aesthetic snippets"
+    ]
+  },
+  {
+    id: "social-media-theme-kits",
+    title: "Social Media Theme Kit Business",
+    type: "product",
+    skills: ["branding","design","trend-research"],
+    interests: ["social-media","marketing","fashion"],
+    timePerDay: "2-5 hrs",
+    income_1_3_months: "₹10k – ₹80k",
+    difficulty: "Medium",
+    trend: "Very High",
+    summary: "Sell pre-made branded Canva kits for creators — including post templates, highlights, and story sets.",
+    how: [
+      "Design trendy kits in Canva (pastel, luxury, bold)",
+      "Offer multiple niches (beauty, lifestyle, coaches)",
+      "Bundle with matching fonts & color palettes",
+      "Sell via Etsy or a standalone website",
+      "Add custom branding add-ons for extra income"
+    ]
+  },
+  {
+    id: "aesthetic-portfolio-themes",
+    title: "Aesthetic Portfolio Theme Developer",
+    type: "product",
+    skills: ["web-design","javascript","branding"],
+    interests: ["tech","art","freelancing"],
+    timePerDay: "3-6 hrs",
+    income_1_3_months: "₹25k – ₹2L+",
+    difficulty: "High",
+    trend: "High",
+    summary: "Design clean, minimal portfolio themes for designers, photographers, and freelancers.",
+    how: [
+      "Build customizable portfolio templates (HTML/CSS or Webflow)",
+      "Include animations and aesthetic layouts",
+      "Sell on marketplaces like ThemeForest or Gumroad",
+      "Offer custom edits for premium clients",
+      "Create niche-specific templates (photography, creative studios)"
+    ]
+  },
+  {
+    id: "digital-aesthetic-agency",
+    title: "Full-Service Digital Aesthetic Agency",
+    type: "service",
+    skills: ["branding","content-strategy","design"],
+    interests: ["fashion","media","art"],
+    timePerDay: "5-8 hrs",
+    income_1_3_months: "₹50k – ₹5L+",
+    difficulty: "Very High",
+    trend: "Exploding",
+    summary: "Build a small creative agency offering full branding, design, and content production with a strong aesthetic identity.",
+    how: [
+      "Build a signature design style (e.g., minimal, dreamy, bold)",
+      "Offer packages (branding, social visuals, content)",
+      "Hire freelancers for content delivery",
+      "Market on Instagram + Behance with case studies",
+      "Offer retainer contracts for brands"
+    ]
   }
-    
   ];
